@@ -251,7 +251,7 @@
 
 	
 	/*----------  slick slider activation  ----------*/
-	var $lezadaSlickSlider = $('.oripersonalshopper-slick-slider');
+	var $lezadaSlickSlider = $('.shop-slick-slider');
     
     /*For RTL*/
     if( $html.attr("dir") == "rtl" || $body.attr("dir") == "rtl" ){

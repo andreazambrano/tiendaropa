@@ -277,7 +277,7 @@ a.scroll-top {
     transform: translateX(-50%); }
 
 /*----------  form  ----------*/
-.oripersonalshopper-form form input[type="text"], .oripersonalshopper-form form input[type="email"], .oripersonalshopper-form form input[type="password"], .oripersonalshopper-form form textarea {
+.shop-form form input[type="text"], .shop-form form input[type="email"], .shop-form form input[type="password"], .shop-form form textarea {
   font-size: 14px;
   display: block;
   color: #333;
@@ -289,38 +289,38 @@ a.scroll-top {
   background: transparent;
   border-bottom: 2px solid #cccccc;
   padding: 9.5px 0; }
-  .oripersonalshopper-form form input[type="text"]:hover, .oripersonalshopper-form form input[type="text"]:active, .oripersonalshopper-form form input[type="text"]:focus, .oripersonalshopper-form form input[type="email"]:hover, .oripersonalshopper-form form input[type="email"]:active, .oripersonalshopper-form form input[type="email"]:focus, .oripersonalshopper-form form input[type="password"]:hover, .oripersonalshopper-form form input[type="password"]:active, .oripersonalshopper-form form input[type="password"]:focus, .oripersonalshopper-form form textarea:hover, .oripersonalshopper-form form textarea:active, .oripersonalshopper-form form textarea:focus {
+  .shop-form form input[type="text"]:hover, .shop-form form input[type="text"]:active, .shop-form form input[type="text"]:focus, .shop-form form input[type="email"]:hover, .shop-form form input[type="email"]:active, .shop-form form input[type="email"]:focus, .shop-form form input[type="password"]:hover, .shop-form form input[type="password"]:active, .shop-form form input[type="password"]:focus, .shop-form form textarea:hover, .shop-form form textarea:active, .shop-form form textarea:focus {
     border-bottom-color: #333; }
 
-.oripersonalshopper-form form ::-webkit-input-placeholder {
+.shop-form form ::-webkit-input-placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #777;
   opacity: 1;
   /* Firefox */ }
 
-.oripersonalshopper-form form :-ms-input-placeholder {
+.shop-form form :-ms-input-placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #777;
   opacity: 1;
   /* Firefox */ }
 
-.oripersonalshopper-form form ::-ms-input-placeholder {
+.shop-form form ::-ms-input-placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #777;
   opacity: 1;
   /* Firefox */ }
 
-.oripersonalshopper-form form ::placeholder {
+.shop-form form ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #777;
   opacity: 1;
   /* Firefox */ }
 
-.oripersonalshopper-form form :-ms-input-placeholder {
+.shop-form form :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
   color: #777; }
 
-.oripersonalshopper-form form ::-ms-input-placeholder {
+.shop-form form ::-ms-input-placeholder {
   /* Microsoft Edge */
   color: #777; }
 
@@ -3938,11 +3938,11 @@ nav.site-nav > ul > li {
       .decor-single-slider-content .slider-content {
         left: 30px; } }
     @media only screen and (max-width: 575px) {
-      .decor-single-slider-content .slider-content a.oripersonalshopper-button {
+      .decor-single-slider-content .slider-content a.shop-button {
         font-size: 12px;
         padding: 10px 20px; } }
     @media only screen and (max-width: 479px) {
-      .decor-single-slider-content .slider-content a.oripersonalshopper-button {
+      .decor-single-slider-content .slider-content a.shop-button {
         font-size: 10px;
         padding: 5px 15px; } }
   .decor-single-slider-content .color-title {
@@ -4237,126 +4237,126 @@ nav.site-nav > ul > li {
         .shop-product__small-image-gallery-slider:hover .slick-arrow.slick-prev {
           left: 10px; } }
 
-.oripersonalshopper-slick-slider--fullscreen {
+.shop-slick-slider--fullscreen {
   position: relative;
   height: 700px; }
   @media only screen and (min-width: 1200px) and (max-width: 1499px) {
-    .oripersonalshopper-slick-slider--fullscreen {
+    .shop-slick-slider--fullscreen {
       height: 600px; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .oripersonalshopper-slick-slider--fullscreen {
+    .shop-slick-slider--fullscreen {
       height: 500px; } }
   @media only screen and (max-width: 767px) {
-    .oripersonalshopper-slick-slider--fullscreen {
+    .shop-slick-slider--fullscreen {
       height: 500px; } }
   @media only screen and (max-width: 479px) {
-    .oripersonalshopper-slick-slider--fullscreen {
+    .shop-slick-slider--fullscreen {
       height: 400px; } }
-  .oripersonalshopper-slick-slider--fullscreen .slick-list, .oripersonalshopper-slick-slider--fullscreen .slick-track, .oripersonalshopper-slick-slider--fullscreen .slick-slide > div {
+  .shop-slick-slider--fullscreen .slick-list, .shop-slick-slider--fullscreen .slick-track, .shop-slick-slider--fullscreen .slick-slide > div {
     height: 100%; }
-  .oripersonalshopper-slick-slider--fullscreen .slick-active .oripersonalshopper-single-slider__content * {
+  .shop-slick-slider--fullscreen .slick-active .shop-single-slider__content * {
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both; }
-  .oripersonalshopper-slick-slider--fullscreen .slick-active .oripersonalshopper-single-slider__content .subtitle {
+  .shop-slick-slider--fullscreen .slick-active .shop-single-slider__content .subtitle {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-delay: 0.2s;
     animation-delay: 0.2s; }
-  .oripersonalshopper-slick-slider--fullscreen .slick-active .oripersonalshopper-single-slider__content .main-title {
+  .shop-slick-slider--fullscreen .slick-active .shop-single-slider__content .main-title {
     -webkit-animation-duration: 1.5s;
     animation-duration: 1.5s;
     -webkit-animation-delay: 0.2s;
     animation-delay: 0.2s; }
-  .oripersonalshopper-slick-slider--fullscreen .slick-active .oripersonalshopper-single-slider__content .oripersonalshopper-button {
+  .shop-slick-slider--fullscreen .slick-active .shop-single-slider__content .shop-button {
     -webkit-animation-duration: 2.5s;
     animation-duration: 2.5s;
     -webkit-animation-delay: 0.3s;
     animation-delay: 0.3s; }
-  .oripersonalshopper-slick-slider--fullscreen .oripersonalshopper-single-slider {
+  .shop-slick-slider--fullscreen .shop-single-slider {
     height: 100%;
     width: 100%; }
-    .oripersonalshopper-slick-slider--fullscreen .oripersonalshopper-single-slider__content {
+    .shop-slick-slider--fullscreen .shop-single-slider__content {
       padding-right: 30px; }
       @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
-        .oripersonalshopper-slick-slider--fullscreen .oripersonalshopper-single-slider__content {
+        .shop-slick-slider--fullscreen .shop-single-slider__content {
           padding: 0 15px; } }
-      .oripersonalshopper-slick-slider--fullscreen .oripersonalshopper-single-slider__content .subtitle {
+      .shop-slick-slider--fullscreen .shop-single-slider__content .subtitle {
         font-size: 16px;
         font-weight: 600;
         text-transform: uppercase;
         margin-bottom: 33px;
         color: #ffffff; }
-        .oripersonalshopper-slick-slider--fullscreen .oripersonalshopper-single-slider__content .subtitle--black {
+        .shop-slick-slider--fullscreen .shop-single-slider__content .subtitle--black {
           color: #333; }
-      .oripersonalshopper-slick-slider--fullscreen .oripersonalshopper-single-slider__content .main-title {
+      .shop-slick-slider--fullscreen .shop-single-slider__content .main-title {
         font-size: 56px;
         line-height: 71px;
         margin-bottom: 35px;
         color: #ffffff; }
-        .oripersonalshopper-slick-slider--fullscreen .oripersonalshopper-single-slider__content .main-title--black {
+        .shop-slick-slider--fullscreen .shop-single-slider__content .main-title--black {
           color: #333; }
         @media only screen and (max-width: 767px) {
-          .oripersonalshopper-slick-slider--fullscreen .oripersonalshopper-single-slider__content .main-title {
+          .shop-slick-slider--fullscreen .shop-single-slider__content .main-title {
             font-size: 40px;
             line-height: 60px; } }
         @media only screen and (max-width: 479px) {
-          .oripersonalshopper-slick-slider--fullscreen .oripersonalshopper-single-slider__content .main-title {
+          .shop-slick-slider--fullscreen .shop-single-slider__content .main-title {
             font-size: 30px;
             line-height: 40px; } }
-      .oripersonalshopper-slick-slider--fullscreen .oripersonalshopper-single-slider__content .oripersonalshopper-button {
+      .shop-slick-slider--fullscreen .shop-single-slider__content .shop-button {
         background-color: #ffffff;
         color: #333 !important;
         border-color: #ffffff; }
-        .oripersonalshopper-slick-slider--fullscreen .oripersonalshopper-single-slider__content .oripersonalshopper-button:hover {
+        .shop-slick-slider--fullscreen .shop-single-slider__content .shop-button:hover {
           background-color: transparent;
           color: #ffffff !important;
           border-color: #ffffff; }
-        .oripersonalshopper-slick-slider--fullscreen .oripersonalshopper-single-slider__content .oripersonalshopper-button--red {
+        .shop-slick-slider--fullscreen .shop-single-slider__content .shop-button--red {
           background-color: #d3122a;
           border-color: #d3122a;
           color: #ffffff !important; }
-        .oripersonalshopper-slick-slider--fullscreen .oripersonalshopper-single-slider__content .oripersonalshopper-button--dark {
+        .shop-slick-slider--fullscreen .shop-single-slider__content .shop-button--dark {
           background-color: #333;
           color: #fff !important;
           border-color: #333; }
-          .oripersonalshopper-slick-slider--fullscreen .oripersonalshopper-single-slider__content .oripersonalshopper-button--dark:hover {
+          .shop-slick-slider--fullscreen .shop-single-slider__content .shop-button--dark:hover {
             background-color: transparent;
             color: #333 !important;
             border-color: #333; }
-      .oripersonalshopper-slick-slider--fullscreen .oripersonalshopper-single-slider__content--spectral-style {
+      .shop-slick-slider--fullscreen .shop-single-slider__content--spectral-style {
         padding-left: 15px;
         padding-top: 100px; }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
-          .oripersonalshopper-slick-slider--fullscreen .oripersonalshopper-single-slider__content--spectral-style {
+          .shop-slick-slider--fullscreen .shop-single-slider__content--spectral-style {
             padding-top: 60px; } }
         @media only screen and (max-width: 767px) {
-          .oripersonalshopper-slick-slider--fullscreen .oripersonalshopper-single-slider__content--spectral-style {
+          .shop-slick-slider--fullscreen .shop-single-slider__content--spectral-style {
             padding-top: 50px; } }
-        .oripersonalshopper-slick-slider--fullscreen .oripersonalshopper-single-slider__content--spectral-style .subtitle {
+        .shop-slick-slider--fullscreen .shop-single-slider__content--spectral-style .subtitle {
           font-family: "Spectral", serif;
           font-weight: 300;
           font-style: italic;
           text-transform: capitalize; }
-        .oripersonalshopper-slick-slider--fullscreen .oripersonalshopper-single-slider__content--spectral-style .main-title {
+        .shop-slick-slider--fullscreen .shop-single-slider__content--spectral-style .main-title {
           font-family: "Spectral", serif; }
-        .oripersonalshopper-slick-slider--fullscreen .oripersonalshopper-single-slider__content--spectral-style .oripersonalshopper-button {
+        .shop-slick-slider--fullscreen .shop-single-slider__content--spectral-style .shop-button {
           background-color: transparent;
           color: #ffffff !important; }
-          .oripersonalshopper-slick-slider--fullscreen .oripersonalshopper-single-slider__content--spectral-style .oripersonalshopper-button:hover {
+          .shop-slick-slider--fullscreen .shop-single-slider__content--spectral-style .shop-button:hover {
             background-color: #ffffff;
             color: #333 !important; }
-    .oripersonalshopper-slick-slider--fullscreen .oripersonalshopper-single-slider--overlay {
+    .shop-slick-slider--fullscreen .shop-single-slider--overlay {
       position: relative; }
-      .oripersonalshopper-slick-slider--fullscreen .oripersonalshopper-single-slider--overlay:before {
+      .shop-slick-slider--fullscreen .shop-single-slider--overlay:before {
         position: absolute;
         content: "";
         background: #000000;
         opacity: 0.4;
         width: 100%;
         height: 100%; }
-  .oripersonalshopper-slick-slider--fullscreen .slick-arrow {
+  .shop-slick-slider--fullscreen .slick-arrow {
     position: absolute;
     top: 50%;
     background: #fff;
@@ -4379,18 +4379,18 @@ nav.site-nav > ul > li {
     border: none;
     z-index: 3; }
     @media only screen and (max-width: 767px) {
-      .oripersonalshopper-slick-slider--fullscreen .slick-arrow {
+      .shop-slick-slider--fullscreen .slick-arrow {
         display: none; } }
-    .oripersonalshopper-slick-slider--fullscreen .slick-arrow:hover {
+    .shop-slick-slider--fullscreen .slick-arrow:hover {
       background-color: #333;
       color: #ffffff; }
-    .oripersonalshopper-slick-slider--fullscreen .slick-arrow.slick-prev {
+    .shop-slick-slider--fullscreen .slick-arrow.slick-prev {
       left: 15px;
       right: auto; }
-    .oripersonalshopper-slick-slider--fullscreen .slick-arrow.slick-next {
+    .shop-slick-slider--fullscreen .slick-arrow.slick-next {
       right: 15px;
       left: auto; }
-  .oripersonalshopper-slick-slider--fullscreen .slick-dots {
+  .shop-slick-slider--fullscreen .slick-dots {
     position: absolute;
     left: 50%;
     bottom: 30px;
@@ -4400,7 +4400,7 @@ nav.site-nav > ul > li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-    .oripersonalshopper-slick-slider--fullscreen .slick-dots li button {
+    .shop-slick-slider--fullscreen .slick-dots li button {
       font-size: 0;
       width: 12px;
       height: 12px;
@@ -4408,61 +4408,61 @@ nav.site-nav > ul > li {
       margin: 0 5px;
       border-radius: 50%;
       border: none; }
-    .oripersonalshopper-slick-slider--fullscreen .slick-dots li.slick-active button {
+    .shop-slick-slider--fullscreen .slick-dots li.slick-active button {
       background: #fff; }
-  .oripersonalshopper-slick-slider--fullscreen:hover .slick-arrow {
+  .shop-slick-slider--fullscreen:hover .slick-arrow {
     visibility: visible;
     opacity: 1; }
-    .oripersonalshopper-slick-slider--fullscreen:hover .slick-arrow.slick-prev {
+    .shop-slick-slider--fullscreen:hover .slick-arrow.slick-prev {
       left: 30px;
       right: auto; }
-    .oripersonalshopper-slick-slider--fullscreen:hover .slick-arrow.slick-next {
+    .shop-slick-slider--fullscreen:hover .slick-arrow.slick-next {
       right: 30px;
       left: auto; }
 
-.oripersonalshopper-slick-slider--swimsuit-home {
+.shop-slick-slider--swimsuit-home {
   height: 840px; }
   @media only screen and (min-width: 1200px) and (max-width: 1499px) {
-    .oripersonalshopper-slick-slider--swimsuit-home {
+    .shop-slick-slider--swimsuit-home {
       height: 800px; } }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .oripersonalshopper-slick-slider--swimsuit-home {
+    .shop-slick-slider--swimsuit-home {
       height: 750px; } }
   @media only screen and (max-width: 479px) {
-    .oripersonalshopper-slick-slider--swimsuit-home {
+    .shop-slick-slider--swimsuit-home {
       height: 550px; } }
-  .oripersonalshopper-slick-slider--swimsuit-home .slick-list, .oripersonalshopper-slick-slider--swimsuit-home .slick-track, .oripersonalshopper-slick-slider--swimsuit-home .slick-slide > div {
+  .shop-slick-slider--swimsuit-home .slick-list, .shop-slick-slider--swimsuit-home .slick-track, .shop-slick-slider--swimsuit-home .slick-slide > div {
     height: 100%; }
-  .oripersonalshopper-slick-slider--swimsuit-home .oripersonalshopper-single-slider__content {
+  .shop-slick-slider--swimsuit-home .shop-single-slider__content {
     padding-left: 30px;
     padding-right: 30px; }
-    .oripersonalshopper-slick-slider--swimsuit-home .oripersonalshopper-single-slider__content .swimsuit-home {
+    .shop-slick-slider--swimsuit-home .shop-single-slider__content .swimsuit-home {
       width: 100%;
       height: 100%; }
-      .oripersonalshopper-slick-slider--swimsuit-home .oripersonalshopper-single-slider__content .swimsuit-home .image {
+      .shop-slick-slider--swimsuit-home .shop-single-slider__content .swimsuit-home .image {
         margin-bottom: 30px; }
-        .oripersonalshopper-slick-slider--swimsuit-home .oripersonalshopper-single-slider__content .swimsuit-home .image img {
+        .shop-slick-slider--swimsuit-home .shop-single-slider__content .swimsuit-home .image img {
           margin-left: auto;
           margin-right: auto; }
-      .oripersonalshopper-slick-slider--swimsuit-home .oripersonalshopper-single-slider__content .swimsuit-home .content .title {
+      .shop-slick-slider--swimsuit-home .shop-single-slider__content .swimsuit-home .content .title {
         color: #E75E47;
         font-size: 30px;
         font-weight: 400;
         margin-bottom: 15px; }
         @media only screen and (max-width: 479px) {
-          .oripersonalshopper-slick-slider--swimsuit-home .oripersonalshopper-single-slider__content .swimsuit-home .content .title {
+          .shop-slick-slider--swimsuit-home .shop-single-slider__content .swimsuit-home .content .title {
             font-size: 25px; } }
-      .oripersonalshopper-slick-slider--swimsuit-home .oripersonalshopper-single-slider__content .swimsuit-home .content .price {
+      .shop-slick-slider--swimsuit-home .shop-single-slider__content .swimsuit-home .content .price {
         color: #E75E47;
         font-size: 17px;
         font-weight: 600; }
-  .oripersonalshopper-slick-slider--swimsuit-home .slick-dots {
+  .shop-slick-slider--swimsuit-home .slick-dots {
     position: absolute;
     bottom: 30px;
     left: 30px; }
-    .oripersonalshopper-slick-slider--swimsuit-home .slick-dots li {
+    .shop-slick-slider--swimsuit-home .slick-dots li {
       display: inline-block; }
-      .oripersonalshopper-slick-slider--swimsuit-home .slick-dots li button {
+      .shop-slick-slider--swimsuit-home .slick-dots li button {
         background: none;
         border: none;
         background-color: #000;
@@ -4472,33 +4472,33 @@ nav.site-nav > ul > li {
         font-size: 0;
         margin-right: 5px;
         padding: 0; }
-      .oripersonalshopper-slick-slider--swimsuit-home .slick-dots li.slick-active button {
+      .shop-slick-slider--swimsuit-home .slick-dots li.slick-active button {
         opacity: 1; }
 
-.slider-area--transparent-header .oripersonalshopper-slick-slider--fullscreen {
+.slider-area--transparent-header .shop-slick-slider--fullscreen {
   height: 900px; }
   @media only screen and (min-width: 1200px) and (max-width: 1499px) {
-    .slider-area--transparent-header .oripersonalshopper-slick-slider--fullscreen {
+    .slider-area--transparent-header .shop-slick-slider--fullscreen {
       height: 700px; } }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .slider-area--transparent-header .oripersonalshopper-slick-slider--fullscreen {
+    .slider-area--transparent-header .shop-slick-slider--fullscreen {
       height: 700px; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .slider-area--transparent-header .oripersonalshopper-slick-slider--fullscreen {
+    .slider-area--transparent-header .shop-slick-slider--fullscreen {
       height: 600px; } }
   @media only screen and (max-width: 767px) {
-    .slider-area--transparent-header .oripersonalshopper-slick-slider--fullscreen {
+    .slider-area--transparent-header .shop-slick-slider--fullscreen {
       height: 550px; } }
   @media only screen and (max-width: 479px) {
-    .slider-area--transparent-header .oripersonalshopper-slick-slider--fullscreen {
+    .slider-area--transparent-header .shop-slick-slider--fullscreen {
       height: 500px; } }
 
-.oripersonalshopper-single-slider--cover {
+.shop-single-slider--cover {
   background-size: cover; }
 
-.oripersonalshopper-single-slider--overlay {
+.shop-single-slider--overlay {
   position: relative; }
-  .oripersonalshopper-single-slider--overlay:before {
+  .shop-single-slider--overlay:before {
     position: absolute;
     top: 0;
     left: 0;
@@ -4996,7 +4996,7 @@ nav.site-nav > ul > li {
 =           08. button            =
 =============================================*/
 /*----------  default style  ----------*/
-.oripersonalshopper-button {
+.shop-button {
   background-color: #333;
   color: #fff !important;
   text-transform: uppercase;
@@ -5010,33 +5010,33 @@ nav.site-nav > ul > li {
   /*----------  large button style  ----------*/
   /*----------  extra large button style  ----------*/
   /*----------  icon left style  ----------*/ }
-  .oripersonalshopper-button:hover {
+  .shop-button:hover {
     background-color: transparent;
     color: #333 !important; }
-  .oripersonalshopper-button--small {
+  .shop-button--small {
     font-size: 12px;
     padding: 8px 15px; }
-    .oripersonalshopper-button--small--style2 {
+    .shop-button--small--style2 {
       padding: 7px 15px; }
-  .oripersonalshopper-button--medium {
+  .shop-button--medium {
     font-size: 14px;
     padding: 10px 45px; }
-  .oripersonalshopper-button--large {
+  .shop-button--large {
     font-size: 16px;
     padding: 12px 35px; }
-  .oripersonalshopper-button--xl {
+  .shop-button--xl {
     font-size: 18px;
     padding: 20px 35px; }
-  .oripersonalshopper-button--icon {
+  .shop-button--icon {
     /*----------  icon left style  ----------*/
     /*----------  icon right style  ----------*/ }
-    .oripersonalshopper-button--icon--left i {
+    .shop-button--icon--left i {
       margin-right: 5px; }
-    .oripersonalshopper-button--icon--right i {
+    .shop-button--icon--right i {
       margin-left: 5px; }
 
-/*----------  oripersonalshopper button 2  ----------*/
-.oripersonalshopper-button-2 {
+/*----------  shop button 2  ----------*/
+.shop-button-2 {
   text-transform: uppercase;
   font-size: 14px;
   line-height: 20px;
@@ -5045,7 +5045,7 @@ nav.site-nav > ul > li {
   letter-spacing: 1px;
   display: inline-block;
   position: relative; }
-  .oripersonalshopper-button-2:after {
+  .shop-button-2:after {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -5054,7 +5054,7 @@ nav.site-nav > ul > li {
     background-color: #333;
     opacity: 0.2;
     content: ""; }
-  .oripersonalshopper-button-2:before {
+  .shop-button-2:before {
     font-size: 0;
     padding-right: 0;
     font-weight: 400;
@@ -5067,9 +5067,9 @@ nav.site-nav > ul > li {
     line-height: 0;
     content: "\f218";
     font-family: 'Ionicons'; }
-  .oripersonalshopper-button-2:hover {
+  .shop-button-2:hover {
     color: #d3122a; }
-    .oripersonalshopper-button-2:hover:before {
+    .shop-button-2:hover:before {
       font-size: 14px;
       line-height: 0;
       padding-right: 8px;
@@ -5077,13 +5077,13 @@ nav.site-nav > ul > li {
       opacity: 1; }
 
 /*----------  load more button  ----------*/
-.oripersonalshopper-loadmore-button {
+.shop-loadmore-button {
   color: #333;
   letter-spacing: 1px;
   font-weight: 500; }
-  .oripersonalshopper-loadmore-button:hover {
+  .shop-loadmore-button:hover {
     color: #333; }
-  .oripersonalshopper-loadmore-button i {
+  .shop-loadmore-button i {
     display: inline-block;
     font-size: 16px;
     padding-right: 8px;
@@ -5091,7 +5091,7 @@ nav.site-nav > ul > li {
     color: #333; }
 
 /*----------  shopping more button  ----------*/
-.oripersonalshopper-shopping-more-button {
+.shop-shopping-more-button {
   font-size: 14px;
   line-height: 18px;
   letter-spacing: 1px;
@@ -5102,7 +5102,7 @@ nav.site-nav > ul > li {
   -webkit-transition: 0.6s;
   -o-transition: 0.6s;
   transition: 0.6s; }
-  .oripersonalshopper-shopping-more-button:hover {
+  .shop-shopping-more-button:hover {
     border-color: #333;
     color: #333; }
 
@@ -5164,10 +5164,10 @@ nav.site-nav > ul > li {
   background-image: url("../images/games-one/video-bg.png"); }
 
 .about-video-bg-8 {
-  background-image: url("https://demo.hasthemes.com/oripersonalshopper-preview/oripersonalshopper/assets/images/games-two/video-bg.png"); }
+  background-image: url("https://demo.hasthemes.com/shop-preview/shop/assets/images/games-two/video-bg.png"); }
 
 .about-video-bg-9 {
-  background-image: url("https://demo.hasthemes.com/oripersonalshopper-preview/oripersonalshopper/assets/images/health-four/video-bg.jpg"); }
+  background-image: url("https://demo.hasthemes.com/shop-preview/shop/assets/images/health-four/video-bg.jpg"); }
 
 /*----------  countdown backgrounds  ----------*/
 .countdown-bg-1 {
@@ -5220,7 +5220,7 @@ nav.site-nav > ul > li {
   background-size: cover; }
 
 .testimonial-bg-6 {
-  background-image: url("https://demo.hasthemes.com/oripersonalshopper-preview/oripersonalshopper/assets/images/pottery-one/testimonial-bg.jpg");
+  background-image: url("https://demo.hasthemes.com/shop-preview/shop/assets/images/pottery-one/testimonial-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
@@ -5456,11 +5456,11 @@ nav.site-nav > ul > li {
       font-size: 28px;
       line-height: 38px; } }
 
-.countdown-wrapper--style2 a.oripersonalshopper-button:hover {
+.countdown-wrapper--style2 a.shop-button:hover {
   border-color: #ffffff;
   color: #ffffff !important; }
 
-.countdown-wrapper--white-bg a.oripersonalshopper-button:hover {
+.countdown-wrapper--white-bg a.shop-button:hover {
   border-color: #000000;
   color: #000000 !important; }
 
@@ -6425,14 +6425,14 @@ nav.site-nav > ul > li {
 =            17. widget            =
 =============================================*/
 /*----------  default  ----------*/
-.oripersonalshopper-widget {
+.shop-widget {
   /*----------  widget title  ----------*/ }
-  .oripersonalshopper-widget .widget-title {
+  .shop-widget .widget-title {
     font-size: 14px;
     line-height: 24px;
     font-weight: 500;
     color: #333; }
-  .oripersonalshopper-widget .widget-content {
+  .shop-widget .widget-content {
     font-size: 15px;
     line-height: 26px;
     color: #7e7e7e;
@@ -6731,7 +6731,7 @@ nav.site-nav > ul > li {
               line-height: 32px; } }
           .single-banner--hoverzoom > a .banner-content--banner-type .name span {
             display: block; }
-        .single-banner--hoverzoom > a .banner-content--banner-type .oripersonalshopper-button-link {
+        .single-banner--hoverzoom > a .banner-content--banner-type .shop-button-link {
           position: relative;
           text-transform: none;
           background-color: transparent;
@@ -6743,7 +6743,7 @@ nav.site-nav > ul > li {
           letter-spacing: 1px;
           color: #333;
           padding-bottom: 3px; }
-          .single-banner--hoverzoom > a .banner-content--banner-type .oripersonalshopper-button-link:after {
+          .single-banner--hoverzoom > a .banner-content--banner-type .shop-button-link:after {
             content: '';
             position: absolute;
             bottom: 0;
@@ -6751,9 +6751,9 @@ nav.site-nav > ul > li {
             width: 100%;
             height: 1px;
             background-color: #333; }
-          .single-banner--hoverzoom > a .banner-content--banner-type .oripersonalshopper-button-link:hover {
+          .single-banner--hoverzoom > a .banner-content--banner-type .shop-button-link:hover {
             color: #d3122a; }
-            .single-banner--hoverzoom > a .banner-content--banner-type .oripersonalshopper-button-link:hover:after {
+            .single-banner--hoverzoom > a .banner-content--banner-type .shop-button-link:hover:after {
               background-color: #d3122a; }
   .single-banner--hoverborder {
     position: relative;
@@ -7124,7 +7124,7 @@ nav.site-nav > ul > li {
       .fashion-home-intro h2.title {
         font-size: 38px;
         line-height: 65px; } }
-  .fashion-home-intro a.oripersonalshopper-shop-link {
+  .fashion-home-intro a.shop-shop-link {
     font-size: 14px;
     line-height: 18px;
     color: #333;
@@ -7132,7 +7132,7 @@ nav.site-nav > ul > li {
     letter-spacing: 1px;
     text-transform: uppercase;
     border-bottom: 1px solid #D6D6D6; }
-    .fashion-home-intro a.oripersonalshopper-shop-link:hover {
+    .fashion-home-intro a.shop-shop-link:hover {
       border-color: #333; }
 
 /*----------  product size  ----------*/
@@ -7188,7 +7188,7 @@ nav.site-nav > ul > li {
       .cosmetics-home-intro h2.title {
         font-size: 32px;
         line-height: 55px; } }
-  .cosmetics-home-intro a.oripersonalshopper-shop-link {
+  .cosmetics-home-intro a.shop-shop-link {
     font-size: 14px;
     line-height: 18px;
     color: #333;
@@ -7196,7 +7196,7 @@ nav.site-nav > ul > li {
     letter-spacing: 1px;
     text-transform: uppercase;
     border-bottom: 1px solid #D6D6D6; }
-    .cosmetics-home-intro a.oripersonalshopper-shop-link:hover {
+    .cosmetics-home-intro a.shop-shop-link:hover {
       border-color: #333; }
 
 /*=====  End of 24. cosmetics home  ======*/
@@ -7691,7 +7691,7 @@ nav.site-nav > ul > li {
   /*----------  long description  ----------*/
   /*----------  additional information  ----------*/
   /*----------  review section     ----------*/
-  /*----------  oripersonalshopper form review  ----------*/
+  /*----------  shop form review  ----------*/
   /*----------  shop product image gallery  ----------*/
   /*----------  variation image  ----------*/
   /*----------  extra info area  ----------*/
@@ -7742,7 +7742,7 @@ nav.site-nav > ul > li {
   .shop-product__short-desc {
     font-size: 15px;
     line-height: 24px; }
-  .shop-product__buttons .oripersonalshopper-compare-button {
+  .shop-product__buttons .shop-compare-button {
     font-size: 0;
     display: inline-block;
     height: 44px;
@@ -7750,14 +7750,14 @@ nav.site-nav > ul > li {
     line-height: 40px;
     text-align: center;
     border: 1px solid #d8d8d8; }
-    .shop-product__buttons .oripersonalshopper-compare-button i {
+    .shop-product__buttons .shop-compare-button i {
       font-size: 20px;
       color: #ababab;
       line-height: 40px; }
-    .shop-product__buttons .oripersonalshopper-compare-button:hover {
+    .shop-product__buttons .shop-compare-button:hover {
       background-color: #333;
       border-color: #333; }
-      .shop-product__buttons .oripersonalshopper-compare-button:hover i {
+      .shop-product__buttons .shop-compare-button:hover i {
         color: #fff; }
   .shop-product__block {
     display: -webkit-box;
@@ -7878,14 +7878,14 @@ nav.site-nav > ul > li {
       color: #333;
       font-weight: 400;
       text-align: center; }
-  .shop-product .oripersonalshopper-form--review .rating-title {
+  .shop-product .shop-form--review .rating-title {
     font-size: 14px;
     line-height: 25px;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: 500;
     color: #333; }
-  .shop-product .oripersonalshopper-form--review .product-rating i {
+  .shop-product .shop-form--review .product-rating i {
     cursor: pointer; }
   .shop-product .shop-product__big-image-gallery-wrapper {
     position: relative;
@@ -8815,11 +8815,11 @@ nav.site-nav > ul > li {
       font-size: 28px;
       line-height: 32px; } }
 
-.oripersonalshopper-cta-button {
+.shop-cta-button {
   background-color: #fff;
   color: #333 !important;
   border-color: #fff; }
-  .oripersonalshopper-cta-button:hover {
+  .shop-cta-button:hover {
     background-color: #333;
     color: #fff !important;
     border-color: #333; }
